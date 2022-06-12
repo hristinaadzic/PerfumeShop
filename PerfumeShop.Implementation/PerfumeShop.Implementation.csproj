@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="FluentValidation" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PerfumeShop.Application\PerfumeShop.Application.csproj" />
+    <ProjectReference Include="..\PerfumeShop.DataAccess\PerfumeShop.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
